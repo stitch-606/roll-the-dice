@@ -15,4 +15,22 @@ btn.onclick = function() {
   r1.textContent = num1;
   r2.textContent = num2;
   r3.textContent = num3;
-}
+};
+
+btn.style.transition = "background-color 0.01s ease-in-out";
+
+btn.addEventListener("mousedown", function() {
+  btn.style.backgroundColor = "rgb(52, 112, 136)";
+});
+
+btn.addEventListener("mouseup", function() {
+  btn.style.backgroundColor = "rgb(83, 155, 179)";
+});
+
+btn.addEventListener("touchstart", function() {
+  btn.style.backgroundColor = "rgb(52, 112, 136)";
+});
+
+btn.addEventListener("touchend", function() {
+  btn.style.backgroundColor = "rgb(83, 155, 179)";
+});
