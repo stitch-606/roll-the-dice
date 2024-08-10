@@ -66,18 +66,10 @@ main h1{
   transition: background-color 0.3s ease-in-out;
 }
 
-.button:active{
-    -webkit-tap-highlight-color: transparent;
-}
-
 .button img{
   width: 20px;
   height: 25px;
   position: relative;
   top: 1.5px;
   left: -7px;
-}
-
-.button:hover{
-  background-color: rgb(52, 112, 136);
 }
